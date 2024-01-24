@@ -1,0 +1,45 @@
+
+  /*
+  2. Gora strony
+  */
+  .site-top {
+    height: 60px;
+    line-height: 60px;
+    background-color: $accent-color;
+    text-align: center;
+  }
+  
+  .site-top-logo {
+    vertical-align: middle;
+  }
+  
+  /*
+  3. Hero unit
+  */
+  .hero-unit {
+    text-align: center;
+    background: url('../../images/top-tlo.jpg') center center;
+    padding: 70px 6%;
+  }
+  
+  @media (min-width: 1024px) {
+    .hero-unit {
+      padding: 150px 6%;
+    }
+  }
+  
+  .hero-unit-header {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 3.25em;
+    line-height: 1.5 * 2;
+  }
+  
+  
+  /*
+  5. Stopka strony
+  */
+  .site-footer {
+    text-align: center;
+    padding: 20px 0;
+  }
